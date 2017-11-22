@@ -1,0 +1,12 @@
+- name: Fact examples
+  hosts: all
+  tasks: 
+  - name: Write kernel version and hostname in motd file.
+    copy:
+      content: "{{ ansible_kernel }} and {{ ansible_hostname }}"
+      dest: /etc/motd
+  - name: append OS ditributer
+    lineinfile: 
+         line: "{{ ansible_distribution }}"
+         dest: /etc/motd
+

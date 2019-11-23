@@ -1,0 +1,53 @@
+975  cd /Data/RHLS/openstack-cloud/
+  976  ll
+  977  history 
+  978  cd ..
+  979  ll
+  980  mdkir ansible_playbook
+  981  mkdir ansible_playbook
+  982  cd ansible_playbook/
+  983  git init
+  984  git pull https://github.com/vijayibm/ansible_playbook.git
+  985  ll
+  986  touch play1.txt
+  987  mv play1.txt play1.yaml
+  988  git status
+  989  git add .
+  990  git status
+  991  git commit -m "First Play"
+  992  git status
+  993  git commit -m "First Play"
+  994  ll
+  995  git push origin master
+  996  ll
+  997  git push origin master
+  998  history 
+  999  exit
+ 1000  hist
+ 1001  history 
+ 1002  git remote add origin https://github.com/vijayibm/ansible_playbook.git
+ 1003  git push origin master
+ 1004  git branch devlop
+ 1005  git checkout devlop
+ 1006  git branch
+ 1007  ll
+ 1008  git branch account
+ 1009  git branch
+ 1010  git checkout master
+ 1011  git branch
+ 1012  git checkout devlop
+ 1013  ls
+ 1014  ll
+ 1015  touch play2.yaml
+ 1016  touch play3.yaml
+ 1017  git status
+ 1018  git add .
+ 1019  git status
+ 1020  git commit -m "Second Play"
+ 1021  ll
+ 1022  git checkout master
+ 1023  ls
+ 1024  git checkout devlop 
+ 1025  ls
+ 1026  history 
+
